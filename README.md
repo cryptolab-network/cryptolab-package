@@ -9,7 +9,7 @@ To start the website,
 * docker-compose build
 * docker-compose up
 
-Then you can open the url http://127.0.0.1:3030/dotSR to enter the Staking Rewards tool. 
+Then you can open the url http://127.0.0.1:3030/tools/dotSR to enter the Staking Rewards tool. 
 
 * Copy and paste either a Polkadot or a Kusama address on the *Search for Stash ID* field
 
