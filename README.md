@@ -34,7 +34,7 @@ If you entered an incorrect address or a stash with no rewards collected, the pa
 
 ## Setup from Source code
 
-To compile and run CryptoLab website, you need to clone the following projects from github to the same folder
+To compile and run CryptoLab website, you need to clone the following projects from github to a same rfolder
 
 Polkadot Staking Site (https://github.com/cryptolab-network/polkadot-staking-site)
 
