@@ -64,12 +64,18 @@ and compile each by
 
 1. ```npm install```
 2. ```npm run build```
-2. Copy the content in ```./dist``` folder to ```/www/static``` in cryptolab-web-server folder
+3. Copy the content in ```./dist``` folder to ```/www/static``` in cryptolab-web-server folder 
+
+```
+cd ./dist
+cp -r . ../../cryptolab-web-server/www/static)
+```
 
 * CryptoLab WebServer
 
 1. ```cargo build --release```
-2. Create ```config.json``` in ```/config``` folder
+2. mkdir `config`
+3. Create `config.json` in `/config` folder
 and paste the following content to the .json file.
 
 ```json=
