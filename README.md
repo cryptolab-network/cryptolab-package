@@ -77,7 +77,7 @@ cp -r . ../../cryptolab-web-server/www/static
 2. rename `sample.json` in `./config` to `config.json` or create your own config file.
 
 ```json=
-
+{
     "db_address": "127.0.0.1",
     "db_port": 27017,
     "kusama_db_name": "kusama",
