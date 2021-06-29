@@ -34,7 +34,7 @@ If you entered an incorrect address or a stash with no rewards collected, the pa
 
 ## Setup from Source code
 
-To compile and run CryptoLab website, you need to clone the following projects from github to a same rfolder
+To compile and run CryptoLab website, you need to clone the following projects from github.
 
 Polkadot Staking Site (https://github.com/cryptolab-network/polkadot-staking-site)
 
@@ -44,7 +44,7 @@ Chain Data Collector (https://github.com/cryptolab-network/chain-data-collector)
 
 Staking Rewards Collector (https://github.com/w3f/staking-rewards-collector)
 
-for example,
+You can clone them to a same root folder, for example,
 
 root
 
@@ -74,9 +74,7 @@ cp -r . ../../cryptolab-web-server/www/static)
 * CryptoLab WebServer
 
 1. ```cargo build --release```
-2. mkdir `config`
-3. Create `config.json` in `/config` folder
-and paste the following content to the .json file.
+2. rename `sample.json` in `./config` to `config.json` or create your own config file.
 
 ```json=
 
@@ -104,8 +102,7 @@ and paste the following content to the .json file.
 
 1. ```npm install```
 2. ```npm run build```
-3. Create ```dev.js``` in ```/config``` folder
-and paste the following content to the .js file
+3. rename `sample.json` in `./config` folder to `dev.json` or create your own `dev.json`.
 
 ```js=
 module.exports = {
@@ -123,7 +120,7 @@ module.exports = {
   PAGE_SIZE: 1500,
 }
 ```
-detailed information can be found in the README in each repo.
+detailed config information can be found in the README in each repo.
 
 * Staking Rewards Collector
 
