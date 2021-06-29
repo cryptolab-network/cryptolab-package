@@ -68,7 +68,7 @@ and compile each by
 
 ```
 cd ./dist
-cp -r . ../../cryptolab-web-server/www/static)
+cp -r . ../../cryptolab-web-server/www/static
 ```
 
 * CryptoLab WebServer
