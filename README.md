@@ -143,7 +143,9 @@ Follow these steps to start the CryptoLab website,
 
 ## Test
 
-Go to ```./cryptolab-web-server``` and run ```cargo test```
+1. rename `sample.json` in `./config` to `config.json` or create your own config file.
+
+2. Go to ```./cryptolab-web-server``` and run ```cargo test```
 
 ## System Architecture
 
