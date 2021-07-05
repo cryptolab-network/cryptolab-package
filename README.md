@@ -125,6 +125,9 @@ detailed config information can be found in the README in each repo.
 * Staking Rewards Collector
 
 1. ```npm install```
+2. `cp ./config/sample.js /config/config.js` and fill the `subscanApiKey` field with a subscan API key.
+
+I can provide the tester our API key in private. So if you need it, please contact me.
 
 * Mongo DB
 
