@@ -6,6 +6,10 @@ This repo contains the docker files of CryptoLab website for and only for W3f Op
 
 To start the website,
 
+* fill in a subscan API key in field `subscanApiKey` in `./staking-rewards-collector/config/config.js`.
+
+Without doing it, Subscan API can return captcha html which the program cannot handle if you call the Staking Rewards Collector frequently.
+
 * docker-compose build
 * docker-compose up
 
@@ -42,7 +46,7 @@ CryptoLab WebServer (https://github.com/cryptolab-network/cryptolab-web-server)
 
 Chain Data Collector (https://github.com/cryptolab-network/chain-data-collector)
 
-Staking Rewards Collector (https://github.com/w3f/staking-rewards-collector)
+Staking Rewards Collector (https://github.com/cryptolab-network/staking-rewards-collector)
 
 You can clone them to a same root folder, for example,
 
@@ -125,7 +129,7 @@ detailed config information can be found in the README in each repo.
 * Staking Rewards Collector
 
 1. ```npm install```
-2. `cp ./config/sample.js /config/config.js` and fill the `subscanApiKey` field with a subscan API key.
+2. `cp ./config/sample.js /config/config.js` and fill in the `subscanApiKey` field with a subscan API key.
 
 I can provide the tester our API key in private. So if you need it, please contact me.
 
